@@ -20,6 +20,8 @@ const eslintConfig = defineConfig([
     // Vendored skill tooling (untracked, bundled/minified — not app code):
     ".agents/**",
     ".claude/**",
+    ".github/skills/**",
+    ".opencode/**",
   ]),
 ]);
 
